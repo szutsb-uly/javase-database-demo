@@ -7,7 +7,6 @@ public class JPAMain {
 
     public static void main(String[] args) {
         CustomerDAO customerDAO = new CustomerDAO();
-
         Customer customer = new Customer();
         customer.setCash(1);
         customer.setFullName("2Szüts Bálint");
